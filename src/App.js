@@ -8,6 +8,7 @@ import Layout from "./pages/Layout";
 import Home from "./pages/Home"
 import TeamList from "./components/TeamList";
 import AddTeam from "./components/AddTeam";
+import TeamPreview from "./components/TeamPreview";
 
 const App = () => {
   return (
@@ -25,6 +26,10 @@ const App = () => {
         <Route path="/teams/add/" element={<AddTeam />}></Route>
         <Route path="/teams/edit/:id" element={<AddTeam />}></Route>
         <Route path="*" element={<NotFound />}></Route>
+        <Route
+          path="/teams/teampreview/:id"
+          element={<TeamPreview />}
+        ></Route>
       </Routes>
     </>
   );

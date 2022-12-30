@@ -38,7 +38,7 @@ const TeamList = () => {
 
   return (
     <div className="container">
-      <h3>Komanndų sąrašas</h3>
+      <h3>Komandų sąrašas</h3>
       <hr />
       <div>
         <Link to = "/teams/add" className="btn btn-outline-primary btn-block btn-lg mb-2">Pridėti komandą</Link>

@@ -1,0 +1,149 @@
+body {
+    font-size: 16px;
+  }
+  
+  .bendras {
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table tr td {
+    padding: 0;
+  }
+  
+  table tr td:last-child {
+    text-align: right;
+  }
+  
+  .bold {
+    font-weight: bold;
+  }
+  
+  .right {
+    text-align: right;
+  }
+  
+  .large {
+    font-size: 20px;
+  }
+  
+  .total {
+    font-weight: bold;
+    color: #fb7578;
+  }
+  
+  .logo-container {
+    margin: 20px 0 70px -850px;
+  }
+  
+  .team-info-container {
+    font-size: 0.875em;
+  }
+  .team-info-container td {
+    padding: 4px 0;
+  }
+  
+  .client-name {
+    font-size: 1.5em;
+    vertical-align: top;
+  }
+  
+  .line-players-container {
+    margin: 70px 0;
+    font-size: 0.875em;
+  }
+  
+  .line-players-container th {
+    text-align: left;
+    color: #999;
+    border-bottom: 2px solid #ddd;
+    padding: 10px 0 15px 0;
+    font-size: 0.75em;
+    text-transform: uppercase;
+  }
+  
+  .line-players-container th:last-child {
+    text-align: right;
+  }
+  
+  .line-players-container td {
+    padding: 15px 0;
+  }
+  
+  .line-players-container tbody tr:first-child td {
+    padding-top: 25px;
+  }
+  
+  .line-players-container.has-bottom-border tbody tr:last-child td {
+    padding-bottom: 25px;
+    border-bottom: 2px solid #ddd;
+  }
+  
+  .line-players-container.has-bottom-border {
+    margin-bottom: 0;
+  }
+  
+  .line-players-container th.heading-quantity {
+    width: 50px;
+  }
+  .line-players-container th.heading-position {
+    text-align: right;
+    width: 100px;
+  }
+  .line-players-container th.heading-subtotal {
+    width: 100px;
+  }
+  
+  .payment-info {
+    width: 38%;
+    font-size: 0.75em;
+    line-height: 1.5;
+  }
+  
+  .page-container {
+    display: none;
+  }
+  
+  .pvm {
+    text-align: right;
+    font-size: 16px;
+    /* font-weight: bold; */
+    margin-right: 50px;
+  }
+  
+  .sask-info {
+    text-align: left;
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 2;
+  }
+  
+  img {
+    height: 50px;
+  }
+  
+  span {
+    font-weight: 400;
+    font-size: 16px;
+  }
+  
+  .player {
+    text-align: left;
+    font-size: 16px;
+  }
+  
+  .komandos-sablonas {
+    align-content: left;
+    text-align: left;
+  }
+  
+  .invoice-logo {
+    margin-bottom: 40px;
+  }
+  

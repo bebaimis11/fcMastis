@@ -126,7 +126,7 @@ const AddCoach= () => {
                 </div>
             </form>
             <hr/>
-            <Link to="/items">Atgal į sąrašą</Link>
+            <Link to="/coaches">Atgal į sąrašą</Link>
         </div>
     )
 };

@@ -39,7 +39,7 @@ const CoachesList = () => {
 
   return (
     <div className="container">
-      <h3>trenerių sąrašas</h3>
+      <h3>Trenerių sąrašas</h3>
       <hr />
       <div>
         <Link to = "/coaches/add" className="btn btn-outline-primary btn-block btn-lg mb-2">Pridėti trenerį</Link>
